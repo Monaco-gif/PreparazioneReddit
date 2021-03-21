@@ -16,3 +16,6 @@
   <app-cartella [numero] = 'numeroEstratto' ></app-cartella>
 </label>
 
+<label *ngFor = "let number of numeri"> numeri estratti:
+    <app-cartella  [numero]="numeri"></app-cartella>
+  </label>
